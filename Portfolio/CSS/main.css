@@ -1,0 +1,67 @@
+body, html{
+    height: 100%;
+    margin: 0px;
+}
+
+body{
+    background-color: lightgray;
+}
+
+.navbar{
+    background-color: lightgray;
+    overflow: hidden;
+}
+
+.navbar a{
+    float: left;
+    color: rgb(0,0,50);
+    text-decoration: none;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.links{
+    float: right;
+}
+
+.links a{
+    padding: 35px 30px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.links a:hover{
+    color: white;
+}
+
+.logo{
+    padding: 10px;
+    height: 80px;
+}
+
+.name{
+    padding: 30px;
+    font-size: 35px;
+}
+
+.main{
+    width: 50%;
+    float: left;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 40px;
+    color: rgb(0,0,50);
+    padding-top: 100px;
+    padding-left: 100px;
+}
+
+.headshot{
+    padding-top: 50px;
+    float:right;
+    width: 40%;
+}
+
+#pic{
+    height: 711x;
+    width: 621px;
+    border-radius: 20px;
+    border: 10px solid rgb(0,0,50);
+}

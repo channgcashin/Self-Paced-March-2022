@@ -1,0 +1,76 @@
+body, html{
+    height: 100%;
+    margin: 0px;
+}
+
+body{
+    background-color: lightgray;
+}
+
+.navbar{
+    background-color: lightgray;
+    overflow: hidden;
+}
+
+.navbar a{
+    float: left;
+    color: rgb(0,0,50);
+    text-decoration: none;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.links{
+    float: right;
+}
+
+.links a{
+    padding: 35px 30px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.links a:hover{
+    color: white;
+}
+
+.logo{
+    padding: 10px;
+    height: 80px;
+}
+
+.name{
+    padding: 30px;
+    font-size: 35px;
+}
+
+#linkedLog{
+    height: 200px;
+    width: 200px;
+    padding-right: 350px;
+}
+
+#gitLog{
+    height: 200px;
+    width: 400px;
+}
+
+.top{
+    padding-top: 100px;
+    text-align: center;
+}
+
+.bottom{
+    padding-top: 200px;
+    text-align: center;
+}
+
+#mailLog{
+    padding-right: 350px;
+}
+
+#phoneLog{
+    height: 175px;
+    width: 175px;
+    padding-left: 112px;
+    padding-right: 113px;
+}

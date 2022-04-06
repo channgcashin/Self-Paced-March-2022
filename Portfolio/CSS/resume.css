@@ -1,0 +1,55 @@
+body, html{
+    height: 100%;
+    margin: 0px;
+}
+
+body{
+    background-color: lightgray;
+}
+
+.navbar{
+    background-color: lightgray;
+    overflow: hidden;
+}
+
+.navbar a{
+    float: left;
+    color: rgb(0,0,50);
+    text-decoration: none;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.links{
+    float: right;
+}
+
+.links a{
+    padding: 35px 30px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.links a:hover{
+    color: white;
+}
+
+.logo{
+    padding: 10px;
+    height: 80px;
+}
+
+.name{
+    padding: 30px;
+    font-size: 35px;
+}
+
+.main{
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 20px;
+    color: rgb(0,0,50);
+    text-align: center;
+}
+
+#resume{
+    border: 10px solid rgb(0,0,50);
+}
